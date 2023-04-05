@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
@@ -13,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.14.2",
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.3"
